@@ -30,6 +30,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec", "~> 3.0"
   spec.add_development_dependency "activesupport"
   spec.add_development_dependency "actionpack"
+  spec.add_development_dependency "actionview"
   spec.add_development_dependency "sprockets"
   spec.add_development_dependency "uglifier"
   spec.add_development_dependency "fog-aws"

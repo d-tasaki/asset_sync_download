@@ -8,9 +8,10 @@
 /spec/reports/
 /tmp/
 /vendor/bundle/
-/spec/dummy_app/public/*
-/spec/dummy_app/log/*
-/spec/dummy_app/tmp/*
+/spec/dummy_app*/public/*
+/spec/dummy_app*/log/*
+/spec/dummy_app*/tmp/*
+.envrc
 
 # rspec failure tracking
 .rspec_status
