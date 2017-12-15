@@ -13,7 +13,7 @@ module AssetSyncDownload
     end
 
     def get_asset_files_from_manifest
-      if storage.respond_to?(get_asset_files_from_manifest)
+      if storage.respond_to?(:get_asset_files_from_manifest)
         return storage.get_asset_files_from_manifest
       end
 
