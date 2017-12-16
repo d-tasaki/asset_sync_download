@@ -37,4 +37,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "fog-azure-rm"
 
   spec.add_development_dependency "appraisal"
+  spec.add_development_dependency "systemu"
 end

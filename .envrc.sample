@@ -1,0 +1,5 @@
+export FOG_PROVIDER=AzureRM
+export FOG_DIRECTORY=xxx
+export FOG_REGION=japanwest
+export AZURE_STORAGE_ACCOUNT_NAME="yyy"
+export AZURE_STORAGE_ACCESS_KEY="zzzzzzzzzzzzzzzzzzzzzz"
