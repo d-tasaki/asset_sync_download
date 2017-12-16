@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Daisuke TASAKI"]
   spec.email         = ["tasaki@i3-systems.com"]
 
-  spec.summary       = %q{Download asset files from your cloud storage such as AWS S3, Rackspace, AzureBlob, synchronised with AssetSync gem}
-  spec.description   = %q{This gem enables you to distribute a manifest fiie and asset files to servers, without commiting such files to your repository.}
+  spec.summary       = %q{Downloads asset files to Rails applications from a cloud storage, such as AWS S3 and AzureBlob, synchronised with AssetSync gem}
+  spec.description   = %q{It enables you to distribute a manifest file and asset files to load-balanced redundant servers without commiting these files to your repository.}
   spec.homepage      = "https://github.com/devchick/asset_sync_download"
   spec.license       = "MIT"
 
